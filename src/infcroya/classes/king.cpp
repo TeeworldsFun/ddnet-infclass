@@ -6,7 +6,7 @@
 #include <game/server/entities/flag.h>
 #include <infcroya/entities/bouncing-bullet.h>
 
-CPsycho::CPsycho()
+CKing::CKing()
 {
 	CSkin skin;
 	skin.SetBodyColor(0, 0, 0);
@@ -15,15 +15,15 @@ CPsycho::CPsycho()
 	skin.SetDecorationName("default");
 	skin.SetDecorationColor(233, 158, 183);
 	skin.SetHandsColor(20, 208, 166);
-	skin.SetFeetColor(0,  0;
+	skin.SetFeetColor(0, 0, 0);
 	SetSkin(skin);
 	SetInfectedClass(ture);
-	SetName("Psycho");
+	SetName("EvilKing");
 	Set06SkinName("Redboppenom");
 	Set06SkinColors(1363875, 655151);
 }
 
-void CPsycho::InitialWeaponsHealth(CCharacter* pChr)
+void CKing::InitialWeaponsHealth(CCharacter* pChr)
 {
 	pChr->IncreaseHealth(10);
 	pChr->GiveWeapon(WEAPON_HAMMER, -1);
