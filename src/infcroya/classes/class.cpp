@@ -231,6 +231,13 @@ void IClass::HammerShoot(CCharacter* pChr, vec2 ProjStartPos) {
 			DAMAGE = 1;
 		}
 
+		if (pChr->GetCroyaPlayer()->GetClassNum() == Class::KING && (ShouldFreeze || ShouldInfect)) {
+			ShouldInfect = false;
+			ShouldFreeze = false;
+			ShouldHit = true;
+			DAMAGE = 9;
+		}
+
 		if (pChr->GetCroyaPlayer()->GetClassNum() == Class::WORKER && (ShouldFreeze || ShouldInfect)) {
 			ShouldInfect = false;
 			ShouldFreeze = false;
