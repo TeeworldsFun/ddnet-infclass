@@ -83,7 +83,8 @@ enum Class {
 	BOOMER,
 	POISONER,
 	SPIDER,
-    MOTHER,
+    	MOTHER,
+	KING,
 	PARASITE,
 	ZOMBIE_CLASS_END,
 };
