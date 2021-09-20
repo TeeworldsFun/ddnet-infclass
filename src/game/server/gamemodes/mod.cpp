@@ -23,6 +23,7 @@
 #include <infcroya/classes/scientist.h>
 #include <infcroya/classes/medic.h>
 #include <infcroya/classes/mercenary.h>
+#include <infcroya/classes/king.h>
 #include <infcroya/classes/ninja.h>
 #include <infcroya/classes/psycho.h>
 #include <infcroya/classes/mother.h>
@@ -103,6 +104,7 @@ CGameControllerMOD::CGameControllerMOD(class CGameContext *pGameServer) :
 	classes[Class::BAT] = new CBat();
 	classes[Class::WORKER] = new CWorker();
 	classes[Class::PARASITE] = new CParasite();
+	classes[Class::King] = new CKing();
   
 	m_TimeLimit = g_Config.m_SvTimelimit; // will be updated by a map load
 }
@@ -155,7 +157,7 @@ void CGameControllerMOD::OnRoundStart()
 	str_format(aBuf, sizeof(aBuf), "Will read YAML for map: %s", g_Config.m_SvMap);
 	GameServer()->Console()->Print(IConsole::OUTPUT_LEVEL_STANDARD, "yaml", aBuf);
 
- 	std::string path_to_yaml("maps/");
+ 	std::string path_to_yaml("data/maps/");
 	path_to_yaml += g_Config.m_SvMap;
 	path_to_yaml += ".yml";
 
