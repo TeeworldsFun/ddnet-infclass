@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-for lang ("russian.txt" "hungarian.txt" "french.txt" "german.txt" "polish.txt" "spanish.txt" "ukrainian.txt" "turkish.txt")
+for lang ("russian.txt" "hungarian.txt" "french.txt" "german.txt" "polish.txt" "spanish.txt" "ukrainian.txt" "turkish.txt" "chinese.txt")
 do
         echo "processing "$lang
         if ! (grep "EVERYTHINGBELLOWISADDED" ../data/languages/$lang 1>/dev/null )
