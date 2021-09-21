@@ -1,5 +1,15 @@
 [![DDraceNetwork](https://ddnet.tw/ddnet-small.png)](https://ddnet.tw) [![](https://github.com/ddnet/ddnet/workflows/Build/badge.svg)](https://github.com/ddnet/ddnet/actions?query=workflow%3ABuild+event%3Apush+branch%3Amaster)
 
+base on DDRace
+InfNext by Pure_Luck
+fork by FlowerFell-Sans, Ninecloud
+感谢所有对InfNext贡献的Tee们！
+Teeworlds Forever!!!!!!!!!!
+
+please build yaml-cpp
+InfNext use yaml-cpp for map
+
+
 Our own flavor of DDRace, a Teeworlds mod. See the [website](https://ddnet.tw) for more information.
 
 Development discussions happen on #ddnet on Quakenet ([Webchat](http://webchat.quakenet.org/?channels=ddnet&uio=d4)) or on [Discord in the developer channel](https://discord.gg/xsEd9xu).
@@ -11,15 +21,15 @@ Cloning
 
 To clone this repository with full history and external libraries (~350 MB):
 
-    git clone --recursive https://github.com/ddnet/ddnet
+    git clone --recursive https://github.com/teeworldsCNFun/ddnet-infclass
 
 To clone this repository with full history when you have the necessary libraries on your system already (~220 MB):
 
-    git clone https://github.com/ddnet/ddnet
+    git clone https://github.com/teeworldsCNFun/ddnet-infclass
 
 To clone this repository with history since we moved the libraries to https://github.com/ddnet/ddnet-libs (~40 MB):
 
-    git clone --shallow-exclude=included-libs https://github.com/ddnet/ddnet
+    git clone --shallow-exclude=included-libs https://github.com/teeworldsCNFun/ddnet-infclass
 
 To clone the libraries if you have previously cloned DDNet without them:
 
