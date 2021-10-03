@@ -1,0 +1,13 @@
+https://github.com/teeworldsCNFun/INmaps.git
+Clone Maps at https://github.com/teeworldsCNFun/INmaps.git
+
+--
+git clone https://github.com/teeworldsCNFun/INmaps.git
+--
+
+and rename it!
+
+--
+mv INmaps maps
+--
+More map are coming!!!
