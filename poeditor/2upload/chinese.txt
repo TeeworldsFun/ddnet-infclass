@@ -1,0 +1,119 @@
+everything.bellow.is.added
+==  EVERYTHINGBELLOWISADDED
+
+cmd.commands
+==  ------ 指令 ------\n\/humans显示人类的角色\n\/zombies显示僵尸的角色\n\/help' - 显示帮助
+
+cmd.help.humans
+==  ------ 人类角色 ------\n尝试: \/medic? \/soldier? \/scientist? \/engineer?\n\/hero? \/mercenary? \/biologist?\n人类会在没血的时候被僵尸用锤子感染
+
+cmd.help.zombies
+==  ------ 僵尸角色 ------\n尝试: \/bat? \/hunter? \/smoker? \/boomer?\n\/queen? \/worker? \/freezer? \/poisoner?
+
+cmd.help.scientist
+==  ---- 科学家 (人类) ----\n可以用榴弹炮传送\n可以生成两个地雷\n免疫冰冻
+
+cmd.help.engineer
+==  ---- 工程师 (人类) ----\n可以用锤子制造一道激光墙\n墙持续时间30秒, 碰到僵尸会减少\n最少会小到5秒
+
+cmd.help.mercenary
+==  ---- 雇佣兵 (人类) ----\n可以使用手枪(喷气背包)起飞\n可以用锤子制造一个触发型大炸弹\n毒液地雷，只对僵尸有效
+
+cmd.help.soldier
+==  ---- 士兵 (人类) ----\n可以用锤子生成2个地雷\n用锤子让地雷爆炸2次
+
+cmd.help.biologist
+==  ---- 生物学家 (人类) ----\n可以用激光枪制造生物激光\n散弹枪可以反弹\n免疫中毒，而且可以用锤子打散监狱烟雾
+
+cmd.help.medic
+==  ---- 医生 (人类) ----\n用锤子治疗人类队友，用榴弹炮治疗自己\n可以用激光枪治疗僵尸
+
+cmd.help.hero
+==  ---- 英雄 (人类) ----\n收集旗帜奖励4血量\/甲给人类\n使用手枪指示旗帜位置\n免疫中毒\n在毒区内受到伤害极小
+
+cmd.help.smoker
+==  ---- 吸烟者 (僵尸) ----\n钩子对人类造成每秒2伤害
+
+cmd.help.boomer
+==  ---- 自爆兵 (僵尸) --\n钩子对人类造成每秒1点伤害\n死亡时爆炸\n锤子自爆
+
+cmd.help.hunter
+==  ---- 猎人 (僵尸) ----\n拥有三段跳\n钩子会对人类造成每秒1点伤害\n锤子发送一个追踪人类位置没伤害的子弹
+
+cmd.help.poisoner
+==  ---- 毒液 (僵尸) ----\n死亡时产生毒雾\n人类会被烟雾造成4点伤害\n生物学家和英雄对其免疫\n挥锤时像自爆兵一样爆炸
+
+cmd.help.freezer
+==  ---- 冰冻者 (僵尸) ----\n用钩子冰冻人类1秒\n如果没有死亡，被冰冻后人类可以免疫冰冻2秒\n科学家对其免疫
+
+cmd.help.bat
+==  ---- 蝙蝠 (僵尸) ----\n无限跳跃\n可以抓住人类并扔到空中\n不能用锤子感染人类，但锤子可造成1伤害
+
+cmd.help.queen
+==  ---- 资本家 (僵尸) ----\n如果对局中有劳动人民\n他们立刻就会被资本家剥削\n用锤子感染人类
+
+cmd.help.worker
+==  ---- 劳动人民 (僵尸) ----\n如果对局中有资本家\n劳动人民可以立刻复活在王后身边\n不能用锤子感染人类，但锤子可造成2伤害
+
+cmd.help.help
+==  ---- Help ----\n人类:逃离僵尸（绿色tee)的追捕\n僵尸:感染其他人类\n命令列表: \/cmdlist
+
+cmd.wrong
+==  没有这个命令, 命令列表: \/cmdlist
+
+game.class.random
+== 随机选择角色
+
+game.class.biologist
+== 生物学家
+
+game.class.medic
+== 医生
+
+game.class.engineer
+== 工程师
+
+game.class.soldier
+== 士兵
+
+game.class.scientist
+== 科学家
+
+game.class.mercenary
+== 雇佣兵
+
+game.class.hero
+== 英雄
+
+game.class.boomer
+== 自爆兵
+
+game.class.smoker
+== 吸烟者
+
+game.class.hunter
+== 猎人
+
+game.class.bat
+== 蝙蝠
+
+game.class.queen
+== 资本家
+
+game.class.worker
+== 劳动人民
+
+game.class.freezer
+== 冰冻者
+
+game.class.poisoner
+== 毒液
+
+game.won.infected
+== 尸赢得了本回合的胜利(%d 秒)
+
+game.won.humans
+== %d Menschen haben in der Runde gewonnen
+
+game.survived
+== Du hast überlebt, +5 Punkte
