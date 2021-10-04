@@ -104,7 +104,6 @@ CGameControllerMOD::CGameControllerMOD(class CGameContext *pGameServer) :
 	classes[Class::BAT] = new CBat();
 	classes[Class::WORKER] = new CWorker();
 	classes[Class::PARASITE] = new CParasite();
-	classes[Class::King] = new CKing();
   
 	m_TimeLimit = g_Config.m_SvTimelimit; // will be updated by a map load
 }
