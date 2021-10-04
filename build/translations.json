@@ -3,257 +3,257 @@
     {
       "context": "english",
       "or": "cmd.commands",
-      "tr": "-- Commands --\n/humans for list of human classes\n/zombies for list of zombie classes\n/help' - show help"
+      "tr": "------ 指令 ------\n\/humans显示人类的角色\n\/zombies显示僵尸的角色\n\/help' - 显示帮助"
     },
     {
       "context": "english",
       "or": "cmd.help.humans",
-      "tr": "-- HUMAN CLASSES --\ntry: /medic? /soldier? /scientist? /engineer?\n/hero? /mercenary? /biologist?\nhumans get infected when low hp or when hit by hammer"
+      "tr": "------ 人类角色 ------\n尝试: \/medic? \/soldier? \/scientist? \/engineer?\n\/hero? \/mercenary? \/biologist?\n人类会在没血的时候被僵尸用锤子感染"
     },
     {
       "context": "english",
       "or": "cmd.help.zombies",
-      "tr": "-- ZOMBIE CLASSES --\ntry: /bat? /hunter? /smoker? /boomer?\n/queen? /worker? /freezer? /poisoner?"
+      "tr": "------ 僵尸角色 ------\n尝试: \/bat? \/hunter? \/smoker? \/boomer?\n\/queen? \/worker? \/freezer? \/poisoner?"
     },
     {
       "context": "english",
       "or": "cmd.help.scientist",
-      "tr": "-- SCIENTIST (human) --\nCan teleport with grenade launcher\nCan spawn 2 mines\nImmune to freezing"
+      "tr": "---- 科学家 (人类) ----\n可以用榴弹炮传送\n可以生成两个地雷\n免疫冰冻"
     },
     {
       "context": "english",
       "or": "cmd.help.engineer",
-      "tr": "-- ENGINEER (human) --\nCan build walls with a hammer\nWall lasts 30 secs, less by 5 sec with every zombie killed"
+      "tr": "---- 工程师 (人类) ----\n可以用锤子制造一道激光墙\n墙持续时间30秒, 碰到僵尸会减少\n最少会小到5秒"
     },
     {
       "context": "english",
       "or": "cmd.help.mercenary",
-      "tr": "-- MERCENARY (human) --\nCan use his gun as a jetpack to fly\nCan build a large floating mine and trigger it with a hammer\nHave poisoning mines, which work on zombies"
+      "tr": "---- 雇佣兵 (人类) ----\n可以使用手枪(喷气背包)起飞\n可以用锤子制造一个触发型大炸弹\n毒液地雷，只对僵尸有效"
     },
     {
       "context": "english",
       "or": "cmd.help.soldier",
-      "tr": "-- SOLDIER (human) --\nCan spawn a number of floating mines with his hammer\nFire hammer again to explode them one by one"
+      "tr": "---- 士兵 (人类) ----\n可以用锤子生成2个地雷\n用锤子让地雷爆炸2次"
     },
     {
       "context": "english",
       "or": "cmd.help.biologist",
-      "tr": "-- BIOLOGIST (human) --\nCan build a trap with a laser when fully charged\nShotgun ricochets a lot\nImmune to poisoning and can remove cloud with a hammer"
+      "tr": "---- 生物学家 (人类) ----\n可以用激光枪制造生物激光\n散弹枪可以反弹\n免疫中毒，而且可以用锤子打散监狱烟雾"
     },
     {
       "context": "english",
       "or": "cmd.help.medic",
-      "tr": "-- MEDIC (human) --\nCan heal humans with hammer or heal grenades\nCan revive zombies with a laser"
+      "tr": "---- 医生 (人类) ----\n用锤子治疗人类队友，用榴弹炮治疗自己\n可以用激光枪治疗僵尸"
     },
     {
       "context": "english",
       "or": "cmd.help.hero",
-      "tr": "-- HERO (human) --\nCollects flags to give + 4HP/shields to humans\nUse gun as a navigator\nImmune to poisoning\nLess damage when outside of blue zone"
+      "tr": "---- 英雄 (人类) ----\n收集旗帜奖励4血量\/甲给人类\n使用手枪指示旗帜位置\n免疫中毒\n在毒区攻击力极低"
     },
     {
       "context": "english",
       "or": "cmd.help.smoker",
-      "tr": "-- SMOKER (zombie) --\nHook damages humans -2 HP/sec"
+      "tr": "---- 吸烟者 (僵尸) ----\n钩子对人类造成每秒2伤害"
     },
     {
       "context": "english",
       "or": "cmd.help.boomer",
-      "tr": "-- BOOMER (zombie) --\nHook damages humans -1 HP/sec\nExplodes on dying\nFire a hammer to explode"
+      "tr": "---- 自爆兵 (僵尸) --\n钩子对人类造成每秒1点伤害\n死亡时爆炸\n锤子自爆"
     },
     {
       "context": "english",
       "or": "cmd.help.hunter",
-      "tr": "-- HUNTER (zombie) --\nJumps two times in the air\nHook damages humans -1 HP/sec\nUse gun to track humans"
+      "tr": "---- 猎人 (僵尸) ----\n拥有三段跳\n钩子会对人类造成每秒1点伤害\n锤子发送一个追踪人类位置没伤害的子弹"
     },
     {
       "context": "english",
       "or": "cmd.help.poisoner",
-      "tr": "-- POISONER (zombie) --\nProduces poison cloud when dying\nHumans got poisoned for -4 HP damage with it\nBIOLOGIST and HERO are immune to poisoning\nDie on firing a hammer like a BOOMER"
+      "tr": "---- 毒液 (僵尸) ----\n死亡时产生毒雾\n人类会被烟雾造成4点伤害\n生物学家和英雄对其免疫\n挥锤时像自爆兵一样爆炸"
     },
     {
       "context": "english",
       "or": "cmd.help.freezer",
-      "tr": "-- CRYO (zombie) --\nCan stun a human with a hook for 1 sec\nHumans get 2 sec immunity if not killed\nSCIENTIST is immune to it"
+      "tr": "---- 冰冻者 (僵尸) ----\n用钩子冰冻人类1秒\n如果没有死亡，被冰冻后人类可以免疫冰冻2秒\n科学家对其免疫"
     },
     {
       "context": "english",
       "or": "cmd.help.bat",
-      "tr": "-- BAT (zombie) --\nCan fly with a repeatedly presses of a jump button\nCan grab humans and lift them in air\nDoes not infects with hammer, but deals -1 HP damage"
+      "tr": "---- 蝙蝠 (僵尸) ----\n无限跳跃\n可以抓住人类并扔到空中\n不能用锤子感染人类，但锤子可造成1伤害"
     },
     {
       "context": "english",
       "or": "cmd.help.queen",
-      "tr": "-- QUEEN (zombie) --\nIf any WORKERS are in game\nthey will respawn instantly near the QUEEN\nInfects with hammer"
+      "tr": "---- 资本家 (僵尸) ----\n如果对局中有劳动人民\n他们立刻就会被资本家剥削\n用锤子感染人类"
     },
     {
       "context": "english",
       "or": "cmd.help.worker",
-      "tr": "-- WORKER (zombie) --\nIf QUEEN is in game\nWORKER will respawn instantly near the QUEEN\nDoes not infects, but deals -2 HP damage with hammer"
+      "tr": "---- 劳动人民 (僵尸) ----\n如果对局中有资本家\n劳动人民可以立刻复活在王后身边\n不能用锤子感染人类，但锤子可造成2伤害"
     },
     {
       "context": "english",
       "or": "cmd.help.help",
-      "tr": "-- Help --\nInfection mod\nRun away from zombies (green) as a human\nInfect humans as a zombie\nTry: /commands"
+      "tr": "---- Help ----\n人类:逃离僵尸（绿色tee)的追捕\n僵尸:感染其他人类\n命令列表: \/cmdlist"
     },
     {
       "context": "english",
       "or": "cmd.wrong",
-      "tr": "no such command, try: /commands"
+      "tr": "没有这个命令, 命令列表: \/cmdlist"
     },
     {
       "context": "english",
       "or": "game.class.random",
-      "tr": "Random choice"
+      "tr": "随机选择角色"
     },
     {
       "context": "english",
       "or": "game.class.biologist",
-      "tr": "Biologist"
+      "tr": "生物学家"
     },
     {
       "context": "english",
       "or": "game.class.medic",
-      "tr": "Medic"
+      "tr": "医生"
     },
     {
       "context": "english",
       "or": "game.class.engineer",
-      "tr": "Engineer"
+      "tr": "工程师"
     },
     {
       "context": "english",
       "or": "game.class.soldier",
-      "tr": "Soldier"
+      "tr": "士兵"
     },
     {
       "context": "english",
       "or": "game.class.scientist",
-      "tr": "Scientist"
+      "tr": "科学家"
     },
     {
       "context": "english",
       "or": "game.class.mercenary",
-      "tr": "Mercenary"
+      "tr": "雇佣兵"
     },
     {
       "context": "english",
       "or": "game.class.hero",
-      "tr": "Hero"
+      "tr": "英雄"
     },
     {
       "context": "english",
       "or": "game.class.boomer",
-      "tr": "Boomer"
+      "tr": "自爆兵"
     },
     {
       "context": "english",
       "or": "game.class.smoker",
-      "tr": "Smoker"
+      "tr": "吸烟者"
     },
     {
       "context": "english",
       "or": "game.class.hunter",
-      "tr": "Hunter"
+      "tr": "猎人"
     },
     {
       "context": "english",
       "or": "game.class.bat",
-      "tr": "Bat"
+      "tr": "蝙蝠"
     },
     {
       "context": "english",
       "or": "game.class.queen",
-      "tr": "Queen"
+      "tr": "资本家"
     },
     {
       "context": "english",
       "or": "game.class.worker",
-      "tr": "Worker"
+      "tr": "劳动人民"
     },
     {
       "context": "english",
       "or": "game.class.freezer",
-      "tr": "Cryo"
+      "tr": "冰冻者"
     },
     {
       "context": "english",
       "or": "game.class.poisoner",
-      "tr": "Poisoner"
+      "tr": "毒液"
     },
     {
       "context": "english",
       "or": "game.won.infected",
-      "tr": "Infected won the round in %d seconds"
+      "tr": "感染者在第%d秒获胜"
     },
     {
       "context": "english",
       "or": "game.won.humans",
-      "tr": "%d humans won the round"
+      "tr": "%d个人类赢了"
     },
     {
       "context": "english",
       "or": "game.survived",
-      "tr": "You have survived, +5 points"
+      "tr": "你活下来了, 给你5分"
     },
     {
       "context": "english",
       "or": "game.flag.spawned",
-      "tr": "Flag spawned. Heroes can take it to help humans."
+      "tr": "旗帜生成了，英雄可以把旗拿给人类."
     },
     {
       "context": "english",
       "or": "game.flag.taken",
-      "tr": "Flag is taken by a Hero. Humans get +4 HP/Armor"
+      "tr": "英雄拿到了旗. 人类 +4 血/甲"
     },
     {
       "context": "english",
       "or": "game.class.ninja",
-      "tr": "Ninja"
+      "tr": "忍者"
     },
     {
       "context": "english",
       "or": "game.class.sniper",
-      "tr": "Sniper"
+      "tr": "狙击手"
     },
     {
       "context": "english",
       "or": "class.menu.humans.header",
-      "tr": "Choose your class with mouse wheel:\\n"
+      "tr": "用鼠标滚轮选择角色:\\n"
     },
     {
       "context": "english",
       "or": "class.menu.humans.footer",
-      "tr": "\\nPress Tab briefly to close this menu"
+      "tr": "\\n轻按Tab关闭选角色菜单"
     },
     {
       "context": "english",
       "or": "class.menu.zombies.header",
-      "tr": "your class with mouse wheel:\\n\\nstand in a white circle)\\n\\n"
+      "tr": "用鼠标滚轮选择你的角色:\\n\\n站在白色区域内\\n\\n"
     },
     {
       "context": "english",
       "or": "class.menu.zombies.footer",
-      "tr": "\\nClasses with * are selectable by an initial zombie only\\nPress Tab briefly to close this menu"
+      "tr": "\\n带有*的角色只有第一个僵尸能选\\n轻按Tab关闭选角色菜单"
     },
     {
       "context": "english",
       "or": "game.class.psycho",
-      "tr": "Psycho"
+      "tr": "灭霸"
     },
     {
       "context": "english",
       "or": "game.class.looper",
-      "tr": "Looper"
+      "tr": "looper"
     },
     {
       "context": "english",
       "or": "game.class.magician",
-      "tr": "Magician"
+      "tr": "奇异博士"
     },
     {
       "context": "english",
       "or": "game.class.spider",
-      "tr": "Spider"
+      "tr": "蜘蛛侠"
     },
     {
       "context": "english",
