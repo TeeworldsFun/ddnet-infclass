@@ -9,6 +9,7 @@ langfiles = {
         "es" : "spanish.txt",
         "uk" : "ukrainian.txt",
         "tr" : "turkish.txt"
+        "cn" : "chinese.txt"
 }
 
 for short in langfiles:
