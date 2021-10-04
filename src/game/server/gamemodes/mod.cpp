@@ -157,7 +157,7 @@ void CGameControllerMOD::OnRoundStart()
 	str_format(aBuf, sizeof(aBuf), "Will read YAML for map: %s", g_Config.m_SvMap);
 	GameServer()->Console()->Print(IConsole::OUTPUT_LEVEL_STANDARD, "yaml", aBuf);
 
- 	std::string path_to_yaml("data/maps/");
+ 	std::string path_to_yaml("INmaps/");
 	path_to_yaml += g_Config.m_SvMap;
 	path_to_yaml += ".yml";
 
