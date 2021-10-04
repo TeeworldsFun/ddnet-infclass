@@ -10,6 +10,7 @@ langfiles = {
         "es" => "spanish",
         "uk" => "ukrainian",
         "tr" => "turkish"
+        "cn" => "chinese"
 }
 
 tr0 = JSON.parse(File.read("orig/translations.json"))["translated strings"]
