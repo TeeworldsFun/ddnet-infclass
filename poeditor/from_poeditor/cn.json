@@ -25,7 +25,7 @@
     },
     {
         "term": "cmd.help.scientist",
-        "definition": "---- 科学家 (人类) ----\n可以用榴弹发送器传送\n可以生成两个地雷\n免疫冰冻",
+        "definition": "---- 科学家 (人类) ----\n可以用榴弹炮传送\n可以生成两个地雷\n免疫冰冻",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -33,7 +33,7 @@
     },
     {
         "term": "cmd.help.engineer",
-        "definition": "---- 工程师 (人类) ----\n可以用锤子制造一道墙\n墙的持续时间有30秒, 碰到僵尸会减少\n最少会小到5秒",
+        "definition": "---- 工程师 (人类) ----\n可以用锤子制造一道激光墙\n墙持续时间30秒, 碰到僵尸会减少\n最少会小到5秒",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -57,7 +57,7 @@
     },
     {
         "term": "cmd.help.biologist",
-        "definition": "---- 生物学家 (人类) ----\n可以用激光枪制造生物激光\n散弹枪可以反弹\n免疫中毒，而且可以用锤子打散云",
+        "definition": "---- 生物学家 (人类) ----\n可以用激光枪制造生物激光\n散弹枪可以反弹\n免疫中毒，而且可以用锤子打散监狱烟雾",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -73,7 +73,7 @@
     },
     {
         "term": "cmd.help.hero",
-        "definition": "---- 英雄 (人类) ----\n收集旗帜获取奖励 + 4 血量\/甲给人类\n使用手枪导航到旗帜\n免疫中毒\n在毒区内伤害及小",
+        "definition": "---- 英雄 (人类) ----\n收集旗帜奖励4血量\/甲给人类\n使用手枪指示旗帜位置\n免疫中毒\n在毒区内受到伤害极小",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -81,7 +81,7 @@
     },
     {
         "term": "cmd.help.smoker",
-        "definition": "---- 吸烟者 (僵尸) ----\n使用钩子让人类 -2 血\/秒",
+        "definition": "---- 吸烟者 (僵尸) ----\n钩子对人类造成每秒2点伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -89,7 +89,7 @@
     },
     {
         "term": "cmd.help.boomer",
-        "definition": "---- 自爆兵 (僵尸) --\n钩子让人类 -1 血\/秒\n死亡时爆炸\n锤子死亡",
+        "definition": "---- 自爆兵 (僵尸) --\n钩子对人类造成每秒1点伤害\n死亡时爆炸\n锤子自爆",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -97,7 +97,7 @@
     },
     {
         "term": "cmd.help.hunter",
-        "definition": "-- HUNTER (zombie) --\nJumps two times in the air\nHook damages humans -1 HP\/sec\nUse gun to track humans",
+        "definition": "-- 猎人 (僵尸) --\n三段跳\n钩子对人类造成每秒1点伤害\n追踪子弹",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -105,7 +105,7 @@
     },
     {
         "term": "cmd.help.poisoner",
-        "definition": "-- POISONER (zombie) --\nProduces poison cloud when dying\nHumans got poisoned for -4 HP damage with it\nBIOLOGIST and HERO are immune to poisoning\nDie on firing a hammer like a BOOMER",
+        "definition": "-- 狱卒 (僵尸) --\n死亡时产生监狱烟雾\n人类会被烟雾造成4点伤害\n生物学家和英雄对其免疫\n挥锤时像自爆兵一样爆炸",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -113,7 +113,7 @@
     },
     {
         "term": "cmd.help.freezer",
-        "definition": "-- CRYO (zombie) --\nCan stun a human with a hook for 1 sec\nHumans get 2 sec immunity if not killed\nSCIENTIST is immune to it",
+        "definition": "-- 冰冻者 (僵尸) --\n用钩子眩晕人类1秒\n如果没有死亡，被冰冻后人类可以免疫冰冻2秒\n科学家对其免疫",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -121,7 +121,7 @@
     },
     {
         "term": "cmd.help.bat",
-        "definition": "-- BAT (zombie) --\nCan fly with a repeatedly presses of a jump button\nCan grab humans and lift them in air\nDoes not infects with hammer, but deals -1 HP damage",
+        "definition": "-- 蝙蝠 (僵尸) --\n无限跳跃\n可以抓住人类并扔到空中\n不能用锤子感染人类，但锤子可造成1伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -129,7 +129,7 @@
     },
     {
         "term": "cmd.help.queen",
-        "definition": "-- QUEEN (zombie) --\nIf any WORKERS are in game\nthey will respawn instantly near the QUEEN\nInfects with hammer",
+        "definition": "-- 王后 (僵尸) --\n如果对局中有工人\n他们可以立刻复活在王后身边\n用锤子感染人类",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -137,7 +137,7 @@
     },
     {
         "term": "cmd.help.worker",
-        "definition": "-- WORKER (zombie) --\nIf QUEEN is in game\nWORKER will respawn instantly near the QUEEN\nDoes not infects, but deals -2 HP damage with hammer",
+        "definition": "-- 工人 (僵尸) --\n如果对局中有女王\n工人可以立刻复活在王后身边\n不能用锤子感染人类，但锤子可造成2伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -145,7 +145,7 @@
     },
     {
         "term": "cmd.help.help",
-        "definition": "-- Help --\nInfection mod\nRun away from zombies (green) as a human\nInfect humans as a zombie\nTry: \/commands",
+        "definition": "-- Help --\n人类:逃离僵尸（绿色tee)的追捕\n僵尸:感染其他人类\n命令列表: \/commands",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -153,7 +153,7 @@
     },
     {
         "term": "cmd.wrong",
-        "definition": "no such command, try: \/commands",
+        "definition": "没有这个命令, 命令列表: \/commands",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -161,7 +161,7 @@
     },
     {
         "term": "game.class.random",
-        "definition": "Random choice",
+        "definition": "随机选择职业",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -169,7 +169,7 @@
     },
     {
         "term": "game.class.biologist",
-        "definition": "Biologist",
+        "definition": "生物学家",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -177,7 +177,7 @@
     },
     {
         "term": "game.class.medic",
-        "definition": "Medic",
+        "definition": "医师",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -185,7 +185,7 @@
     },
     {
         "term": "game.class.engineer",
-        "definition": "Engineer",
+        "definition": "工程师",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -193,7 +193,7 @@
     },
     {
         "term": "game.class.soldier",
-        "definition": "Soldier",
+        "definition": "士兵",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -201,7 +201,7 @@
     },
     {
         "term": "game.class.scientist",
-        "definition": "Scientist",
+        "definition": "科学家",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -209,7 +209,7 @@
     },
     {
         "term": "game.class.mercenary",
-        "definition": "Mercenary",
+        "definition": "雇佣兵",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -217,7 +217,7 @@
     },
     {
         "term": "game.class.hero",
-        "definition": "Hero",
+        "definition": "英雄",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -225,7 +225,7 @@
     },
     {
         "term": "game.class.boomer",
-        "definition": "Boomer",
+        "definition": "自爆兵",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -233,7 +233,7 @@
     },
     {
         "term": "game.class.smoker",
-        "definition": "Smoker",
+        "definition": "吸烟者",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -241,7 +241,7 @@
     },
     {
         "term": "game.class.hunter",
-        "definition": "Hunter",
+        "definition": "猎人",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -249,7 +249,7 @@
     },
     {
         "term": "game.class.bat",
-        "definition": "Bat",
+        "definition": "蝙蝠",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -257,7 +257,7 @@
     },
     {
         "term": "game.class.queen",
-        "definition": "Queen",
+        "definition": "女王",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -265,7 +265,7 @@
     },
     {
         "term": "game.class.worker",
-        "definition": "Worker",
+        "definition": "工人",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -273,7 +273,7 @@
     },
     {
         "term": "game.class.freezer",
-        "definition": "Cryo",
+        "definition": "冰冻者",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -281,7 +281,7 @@
     },
     {
         "term": "game.class.poisoner",
-        "definition": "Poisoner",
+        "definition": "狱卒",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -289,7 +289,7 @@
     },
     {
         "term": "game.won.infected",
-        "definition": "Infected won the round in %d seconds",
+        "definition": "僵尸赢得了本回合的胜利(%d 秒)",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -297,7 +297,7 @@
     },
     {
         "term": "game.won.humans",
-        "definition": "%d humans won the round",
+        "definition": "%d 个人类赢得了本回合的胜利",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -305,7 +305,7 @@
     },
     {
         "term": "game.survived",
-        "definition": "You have survived, +5 points",
+        "definition": "你幸存下来, +5分",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -313,7 +313,7 @@
     },
     {
         "term": "game.flag.spawned",
-        "definition": "Flag spawned. Heroes can take it to help humans.",
+        "definition": "旗帜出现.英雄取得它会对人类大有帮助.",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -321,7 +321,7 @@
     },
     {
         "term": "game.flag.taken",
-        "definition": "Flag is taken by a Hero. Humans get +4 HP\/Armor",
+        "definition": "英雄取得了旗帜.人类获得4点生命\/护甲",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -329,7 +329,7 @@
     },
     {
         "term": "game.class.ninja",
-        "definition": "Ninja",
+        "definition": "忍者",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -337,7 +337,7 @@
     },
     {
         "term": "game.class.sniper",
-        "definition": "Sniper",
+        "definition": "狙击手",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -345,7 +345,7 @@
     },
     {
         "term": "class.menu.humans.header",
-        "definition": "Choose your class with mouse wheel:\\n",
+        "definition": "用鼠标滑轮选择职业:\\n",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -353,7 +353,7 @@
     },
     {
         "term": "class.menu.humans.footer",
-        "definition": "\\nPress Tab briefly to close this menu",
+        "definition": "\\n轻按tab关闭该菜单",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -361,7 +361,7 @@
     },
     {
         "term": "class.menu.zombies.header",
-        "definition": "your class with mouse wheel:\\n\\nstand in a white circle)\\n\\n",
+        "definition": "你用滑轮选择的职业:\\n\\n(站在白色的感染圈内)\\n\\n",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -369,7 +369,7 @@
     },
     {
         "term": "class.menu.zombies.footer",
-        "definition": "\\nClasses with * are selectable by an initial zombie only\\nPress Tab briefly to close this menu",
+        "definition": "\\n带*的职业只有最初的僵尸能够选择\\n轻按tab关闭该菜单",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -377,7 +377,7 @@
     },
     {
         "term": "game.class.psycho",
-        "definition": "Psycho",
+        "definition": "病患",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -385,7 +385,7 @@
     },
     {
         "term": "game.class.looper",
-        "definition": "Looper",
+        "definition": "减速兵",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -393,7 +393,7 @@
     },
     {
         "term": "game.class.magician",
-        "definition": "Magician",
+        "definition": "法师",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -401,7 +401,7 @@
     },
     {
         "term": "game.class.spider",
-        "definition": "Spider",
+        "definition": "蜘蛛",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -409,7 +409,7 @@
     },
     {
         "term": "cmd.help.psycho",
-        "definition": "-- PSYCHO (human) --\n\npoison and freeze effect immune\nmaximum 5 HP damage received from any hit\nmedic cannot heal him, but he heals when grabbing zombies",
+        "definition": "-- 病患 (人类) --\n\n免疫冰冻与禁锢\n最多只受到5点伤害\n医师不能治疗他,但他可以在勾住僵尸时回复生命",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -417,7 +417,7 @@
     },
     {
         "term": "cmd.help.looper",
-        "definition": "-- LOOPER (human) --\n\nbuilds walls that slow zombies\nhas a very fast low-range laser",
+        "definition": "-- 减速兵 (人类) --\n\n用锤子建造减速僵尸的激光墙\n有攻速极快的减速激光枪",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -425,7 +425,7 @@
     },
     {
         "term": "cmd.help.magician",
-        "definition": "-- MAGICIAN (human) --\n\nsecond jump is levitation\ngrenades make zombie levitate\npistol knock zombies back\nhammer stuns zombies nearby\nhas regular laser",
+        "definition": "-- 法师 (人类) --\n\n二段跳时可以悬浮\n榴弹使僵尸悬浮\n手枪可击退僵尸\n锤子眩晕附近僵尸\n有攻速快的激光枪",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -433,7 +433,7 @@
     },
     {
         "term": "cmd.help.spider",
-        "definition": "-- SPIDER (zombie) --\n\nendless hook which slow-motions humans\nsecond jump is a dash forward\nno hammer damage, almost no hook damage",
+        "definition": "-- 蜘蛛 (僵尸) --\n\n慢模式下勾住人类钩子时长无限\n二段跳可向前冲刺\n锤子与钩子没有伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
