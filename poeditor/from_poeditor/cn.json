@@ -97,7 +97,7 @@
     },
     {
         "term": "cmd.help.hunter",
-        "definition": "-- 猎人 (僵尸) --\n三段跳\n钩子对人类造成每秒1点伤害\n追踪子弹",
+        "definition": "---- 猎人 (僵尸) ----\n三段跳\n钩子对人类造成每秒1点伤害\n追踪子弹",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -105,7 +105,7 @@
     },
     {
         "term": "cmd.help.poisoner",
-        "definition": "-- 狱卒 (僵尸) --\n死亡时产生监狱烟雾\n人类会被烟雾造成4点伤害\n生物学家和英雄对其免疫\n挥锤时像自爆兵一样爆炸",
+        "definition": "---- 毒液 (僵尸) ----\n死亡时产生毒雾\n人类会被烟雾造成4点伤害\n生物学家和英雄对其免疫\n挥锤时像自爆兵一样爆炸",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -113,7 +113,7 @@
     },
     {
         "term": "cmd.help.freezer",
-        "definition": "-- 冰冻者 (僵尸) --\n用钩子眩晕人类1秒\n如果没有死亡，被冰冻后人类可以免疫冰冻2秒\n科学家对其免疫",
+        "definition": "---- 冰冻者 (僵尸) ----\n用钩子眩晕人类1秒\n如果没有死亡，被冰冻后人类可以免疫冰冻2秒\n科学家对其免疫",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -121,7 +121,7 @@
     },
     {
         "term": "cmd.help.bat",
-        "definition": "-- 蝙蝠 (僵尸) --\n无限跳跃\n可以抓住人类并扔到空中\n不能用锤子感染人类，但锤子可造成1伤害",
+        "definition": "---- 蝙蝠 (僵尸) ----\n无限跳跃\n可以抓住人类并扔到空中\n不能用锤子感染人类，但锤子可造成1伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -129,7 +129,7 @@
     },
     {
         "term": "cmd.help.queen",
-        "definition": "-- 王后 (僵尸) --\n如果对局中有工人\n他们可以立刻复活在王后身边\n用锤子感染人类",
+        "definition": "---- 资本家 (僵尸) ----\n如果对局中有劳动人民\n他们立刻就会被资本家剥削\n用锤子感染人类",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -137,7 +137,7 @@
     },
     {
         "term": "cmd.help.worker",
-        "definition": "-- 工人 (僵尸) --\n如果对局中有女王\n工人可以立刻复活在王后身边\n不能用锤子感染人类，但锤子可造成2伤害",
+        "definition": "---- 劳动人民 (僵尸) ----\n如果对局中有资本家\n劳动人民可以立刻复活在王后身边\n不能用锤子感染人类，但锤子可造成2伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -145,7 +145,7 @@
     },
     {
         "term": "cmd.help.help",
-        "definition": "-- Help --\n人类:逃离僵尸（绿色tee)的追捕\n僵尸:感染其他人类\n命令列表: \/commands",
+        "definition": "-- Help --\n人类:逃离僵尸（绿色tee)的追捕\n僵尸:感染其他人类\n命令列表: \/cmdlist",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -153,7 +153,7 @@
     },
     {
         "term": "cmd.wrong",
-        "definition": "没有这个命令, 命令列表: \/commands",
+        "definition": "没有这个命令, 命令列表: \/cmdlist",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -257,7 +257,7 @@
     },
     {
         "term": "game.class.queen",
-        "definition": "女王",
+        "definition": "资本家",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -265,7 +265,7 @@
     },
     {
         "term": "game.class.worker",
-        "definition": "工人",
+        "definition": "劳动人民",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -281,7 +281,7 @@
     },
     {
         "term": "game.class.poisoner",
-        "definition": "狱卒",
+        "definition": "毒液",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -385,7 +385,7 @@
     },
     {
         "term": "game.class.looper",
-        "definition": "减速兵",
+        "definition": "looper",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -409,7 +409,7 @@
     },
     {
         "term": "cmd.help.psycho",
-        "definition": "-- 病患 (人类) --\n\n免疫冰冻与禁锢\n最多只受到5点伤害\n医师不能治疗他,但他可以在勾住僵尸时回复生命",
+        "definition": "---- 病患 (人类) ----\n\n免疫冰冻与禁锢\n最多只受到5点伤害\n医师不能治疗他,但他可以在勾住僵尸时回复生命",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -417,7 +417,7 @@
     },
     {
         "term": "cmd.help.looper",
-        "definition": "-- 减速兵 (人类) --\n\n用锤子建造减速僵尸的激光墙\n有攻速极快的减速激光枪",
+        "definition": "---- 减速兵 (人类) ----\n\n用锤子建造减速僵尸的激光墙\n有攻速极快的减速激光枪",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -425,7 +425,7 @@
     },
     {
         "term": "cmd.help.magician",
-        "definition": "-- 法师 (人类) --\n\n二段跳时可以悬浮\n榴弹使僵尸悬浮\n手枪可击退僵尸\n锤子眩晕附近僵尸\n有攻速快的激光枪",
+        "definition": "---- 法师 (人类) ----\n\n二段跳时可以悬浮\n榴弹使僵尸悬浮\n手枪可击退僵尸\n锤子眩晕附近僵尸\n有攻速快的激光枪",
         "context": "",
         "term_plural": "",
         "reference": "",
@@ -433,7 +433,7 @@
     },
     {
         "term": "cmd.help.spider",
-        "definition": "-- 蜘蛛 (僵尸) --\n\n慢模式下勾住人类钩子时长无限\n二段跳可向前冲刺\n锤子与钩子没有伤害",
+        "definition": "---- 蜘蛛 (僵尸) ----\n\n慢模式下勾住人类钩子时长无限\n二段跳可向前冲刺\n锤子与钩子没有伤害",
         "context": "",
         "term_plural": "",
         "reference": "",
