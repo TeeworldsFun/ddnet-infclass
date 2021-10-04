@@ -1,0 +1,442 @@
+[
+    {
+        "term": "cmd.commands",
+        "definition": "------ 指令 ------\n\/人类显示人类的角色\n\/僵尸显示僵尸的角色\n\/help' - 显示帮助",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.humans",
+        "definition": "------ 人类角色 ------\n尝试: \/medic? \/soldier? \/scientist? \/engineer?\n\/hero? \/mercenary? \/biologist?\n人类会在没血的时候被僵尸用锤子感染",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.zombies",
+        "definition": "------ 僵尸角色 ------\n尝试: \/bat? \/hunter? \/smoker? \/boomer?\n\/queen? \/worker? \/freezer? \/poisoner?",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.scientist",
+        "definition": "---- 科学家 (人类) ----\n可以用榴弹发送器传送\n可以生成两个地雷\n免疫冰冻",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.engineer",
+        "definition": "---- 工程师 (人类) ----\n可以用锤子制造一道墙\n墙的持续时间有30秒, 碰到僵尸会减少\n最少会小到5秒",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.mercenary",
+        "definition": "---- 雇佣兵 (人类) ----\n可以使用手枪(喷气背包)起飞\n可以用锤子制造一个触发型大炸弹\n毒液地雷，只对僵尸有效",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.soldier",
+        "definition": "---- 士兵 (人类) ----\n可以用锤子生成2个地雷\n用锤子让地雷爆炸2次",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.biologist",
+        "definition": "---- 生物学家 (人类) ----\n可以用激光枪制造生物激光\n散弹枪可以反弹\n免疫中毒，而且可以用锤子打散云",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.medic",
+        "definition": "---- 医生 (人类) ----\n用锤子治疗人类队友，用榴弹炮治疗自己\n可以用激光枪治疗僵尸",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.hero",
+        "definition": "---- 英雄 (人类) ----\n收集旗帜获取奖励 + 4 血量\/甲给人类\n使用手枪导航到旗帜\n免疫中毒\n在毒区内伤害及小",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.smoker",
+        "definition": "---- 吸烟者 (僵尸) ----\n使用钩子让人类 -2 血\/秒",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.boomer",
+        "definition": "---- 自爆兵 (僵尸) --\n钩子让人类 -1 血\/秒\n死亡时爆炸\n锤子死亡",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.hunter",
+        "definition": "-- HUNTER (zombie) --\nJumps two times in the air\nHook damages humans -1 HP\/sec\nUse gun to track humans",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.poisoner",
+        "definition": "-- POISONER (zombie) --\nProduces poison cloud when dying\nHumans got poisoned for -4 HP damage with it\nBIOLOGIST and HERO are immune to poisoning\nDie on firing a hammer like a BOOMER",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.freezer",
+        "definition": "-- CRYO (zombie) --\nCan stun a human with a hook for 1 sec\nHumans get 2 sec immunity if not killed\nSCIENTIST is immune to it",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.bat",
+        "definition": "-- BAT (zombie) --\nCan fly with a repeatedly presses of a jump button\nCan grab humans and lift them in air\nDoes not infects with hammer, but deals -1 HP damage",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.queen",
+        "definition": "-- QUEEN (zombie) --\nIf any WORKERS are in game\nthey will respawn instantly near the QUEEN\nInfects with hammer",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.worker",
+        "definition": "-- WORKER (zombie) --\nIf QUEEN is in game\nWORKER will respawn instantly near the QUEEN\nDoes not infects, but deals -2 HP damage with hammer",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.help",
+        "definition": "-- Help --\nInfection mod\nRun away from zombies (green) as a human\nInfect humans as a zombie\nTry: \/commands",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.wrong",
+        "definition": "no such command, try: \/commands",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.random",
+        "definition": "Random choice",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.biologist",
+        "definition": "Biologist",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.medic",
+        "definition": "Medic",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.engineer",
+        "definition": "Engineer",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.soldier",
+        "definition": "Soldier",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.scientist",
+        "definition": "Scientist",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.mercenary",
+        "definition": "Mercenary",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.hero",
+        "definition": "Hero",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.boomer",
+        "definition": "Boomer",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.smoker",
+        "definition": "Smoker",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.hunter",
+        "definition": "Hunter",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.bat",
+        "definition": "Bat",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.queen",
+        "definition": "Queen",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.worker",
+        "definition": "Worker",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.freezer",
+        "definition": "Cryo",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.poisoner",
+        "definition": "Poisoner",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.won.infected",
+        "definition": "Infected won the round in %d seconds",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.won.humans",
+        "definition": "%d humans won the round",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.survived",
+        "definition": "You have survived, +5 points",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.flag.spawned",
+        "definition": "Flag spawned. Heroes can take it to help humans.",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.flag.taken",
+        "definition": "Flag is taken by a Hero. Humans get +4 HP\/Armor",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.ninja",
+        "definition": "Ninja",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.sniper",
+        "definition": "Sniper",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "class.menu.humans.header",
+        "definition": "Choose your class with mouse wheel:\\n",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "class.menu.humans.footer",
+        "definition": "\\nPress Tab briefly to close this menu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "class.menu.zombies.header",
+        "definition": "your class with mouse wheel:\\n\\nstand in a white circle)\\n\\n",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "class.menu.zombies.footer",
+        "definition": "\\nClasses with * are selectable by an initial zombie only\\nPress Tab briefly to close this menu",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.psycho",
+        "definition": "Psycho",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.looper",
+        "definition": "Looper",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.magician",
+        "definition": "Magician",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "game.class.spider",
+        "definition": "Spider",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.psycho",
+        "definition": "-- PSYCHO (human) --\n\npoison and freeze effect immune\nmaximum 5 HP damage received from any hit\nmedic cannot heal him, but he heals when grabbing zombies",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.looper",
+        "definition": "-- LOOPER (human) --\n\nbuilds walls that slow zombies\nhas a very fast low-range laser",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.magician",
+        "definition": "-- MAGICIAN (human) --\n\nsecond jump is levitation\ngrenades make zombie levitate\npistol knock zombies back\nhammer stuns zombies nearby\nhas regular laser",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cmd.help.spider",
+        "definition": "-- SPIDER (zombie) --\n\nendless hook which slow-motions humans\nsecond jump is a dash forward\nno hammer damage, almost no hook damage",
+        "context": "",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    }
+]
