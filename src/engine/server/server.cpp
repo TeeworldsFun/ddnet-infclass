@@ -2335,7 +2335,7 @@ char *CServer::GetMapName()
 int CServer::LoadMap(const char *pMapName)
 {
 	char aBuf[512];
-	str_format(aBuf, sizeof(aBuf), "maps/%s.map", pMapName);
+	str_format(aBuf, sizeof(aBuf), "INmaps/%s.map", pMapName);
 	GameServer()->OnMapChange(aBuf, sizeof(aBuf));
 
 	if(!m_pMap->Load(aBuf))
