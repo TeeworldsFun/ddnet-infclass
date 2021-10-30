@@ -10,7 +10,8 @@ please build yaml-cpp
 
 InfNext use yaml-cpp for map
 
-    sudo apt-get install libyaml-cpp-dev
+    sudo apt-get install libyaml-cpp-dev build-essential cmake git libcurl4-openssl-dev libssl-dev libfreetype6-dev libglew-dev libnotify-dev libogg-dev libopus-dev libopusfile-dev libpnglite-dev libsdl2-dev libsqlite3-dev libwavpack-dev python google-mock
+
 
 Our own flavor of DDRace, a Teeworlds mod. See the [website](https://ddnet.tw) for more information.
 
